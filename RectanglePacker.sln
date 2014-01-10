@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{A407090B-E706-431A-AA21-C1F83BCFB6ED}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapperTestSite", "MapperTestSite\", "{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{A407090B-E706-431A-AA21-C1F83BCFB6ED}|Mapper.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MapperTestSite"
+		Debug.AspNetCompiler.PhysicalPath = "MapperTestSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MapperTestSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MapperTestSite"
+		Release.AspNetCompiler.PhysicalPath = "MapperTestSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MapperTestSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20193"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A407090B-E706-431A-AA21-C1F83BCFB6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A407090B-E706-431A-AA21-C1F83BCFB6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A407090B-E706-431A-AA21-C1F83BCFB6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A407090B-E706-431A-AA21-C1F83BCFB6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
