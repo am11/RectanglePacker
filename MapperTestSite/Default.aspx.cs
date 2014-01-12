@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Web.UI;
 using System.Web.UI.DataVisualization.Charting;
-using System.Diagnostics;
+using System.Web.UI.WebControls;
 using Mapper;
 
 public partial class _Default : System.Web.UI.Page

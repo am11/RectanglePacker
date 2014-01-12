@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Mapper;
+﻿using System.Collections.Generic;
 using System.Drawing;
-using System.Web;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Web;
+using Mapper;
 
 
 /// <summary>

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Drawing;
 
 /// <summary>
 /// Generates random sizes (which consist of a width and a height).

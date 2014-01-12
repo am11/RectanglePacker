@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Mapper;
+﻿using Mapper;
 
 public class ImageInfo: IImageInfo
 {

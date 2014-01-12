@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Diagnostics;
 using Mapper;
-using System.Drawing;
 
 /// <summary>
 /// Version of MapperOptimalEfficiency that produces additional stats
