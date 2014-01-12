@@ -25,7 +25,7 @@ namespace Mapper
         /// <summary>
         /// Holds the locations of all the individual images within the sprite image.
         /// </summary>
-        List<IMappedImageInfo> MappedImages { get; }
+        IEnumerable<IMappedImageInfo> MappedImages { get; }
 
         /// <summary>
         /// Adds an image to the SpriteInfo, and updates the width and height of the SpriteInfo.

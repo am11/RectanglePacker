@@ -13,7 +13,7 @@ public class Sprite : ISprite
     /// <summary>
     /// Holds the locations of all the individual images within the sprite image.
     /// </summary>
-    public List<IMappedImageInfo> MappedImages { get { return _mappedImages; } }
+    public IEnumerable<IMappedImageInfo> MappedImages { get { return _mappedImages; } }
 
     /// <summary>
     /// Width of the sprite image
