@@ -12,8 +12,10 @@ TestResults
 *.suo
 *.user
 *.sln.docstates
+*.pdb
 
 # Build results
+[Bb]in/
 [Dd]ebug/
 [Rr]elease/
 x64/
