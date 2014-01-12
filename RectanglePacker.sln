@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Web Developer Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{A407090B-E706-431A-AA21-C1F83BCFB6ED}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapperTestSite", "MapperTestSite\", "{EB4FE994-2FB2-4C1B-A3FF-F1DAC75D95ED}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
 		ProjectReferences = "{A407090B-E706-431A-AA21-C1F83BCFB6ED}|Mapper.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/MapperTestSite"
 		Debug.AspNetCompiler.PhysicalPath = "MapperTestSite\"
@@ -22,6 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MapperTestSite", "MapperTes
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "20193"
+		SlnRelativePath = "MapperTestSite\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
