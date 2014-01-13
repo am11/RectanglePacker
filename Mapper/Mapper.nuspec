@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RectanglePacker</id>
+    <version>1.1</version>
+    <title>Rectangle Packer for sprite images</title>
+    <authors>Matt Perdeck, Adeel Mujahid (maintaining repo am11/RectanglePacker@github)</authors>
+    <owners>Adeel Mujahid</owners>
+    <licenseUrl>http://www.codeproject.com/info/cpol10.aspx</licenseUrl>
+    <projectUrl>http://www.codeproject.com/Articles/210979/Fast-optimizing-rectangle-packing-algorithm-for-bu</projectUrl>
+    <iconUrl>https://github.com/madskristensen/WebEssentials2013/blob/32cf97c859c0a990f2d7753c58736067a8fc3ee8/EditorExtensions/Resources/Icons/Jigsaw.ico?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Using area optimization heuristic algorithm to provide solution for this NP complete problem.
+      In general, rectangle (or area) optimization is a combinatorial optimization problem.
+      Although the problem is dealing with a 2D plane, it coincides with Travelling Salesman problem.
+    </description>
+    <releaseNotes>Upgraded to .NET 4.5.1 with some minor code analysis related fixes.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>sprite sprites images packer rectangle packer mapper</tags>
+  </metadata>
+</package>
